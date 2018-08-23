@@ -14,8 +14,10 @@
     <h2>Fantasy Football 2018 Team Name Competition</h2>
     <div id="main-header">
         <div id="teamNames">
-            <h3 id="teams-title">List of Team Names:</h3>
-            <ul>
+            <h3 id="teams-title">Final Rankings:</h3>
+            <div id="graph">
+                <img src="results-graph.jpg" alt="bar graph showing team rankings">
+                <!-- <ul>
                 <li>Ron Wolf Stink Bomb</li>
                 <li>Strawberry Sasquatch</li>
                 <li>Purple Skin Tan</li>
@@ -26,20 +28,51 @@
                 <li>Elephant Punch</li>
                 <li>Nickname</li>
                 <li>GoPackGo</li>
-            </ul>
+            </ul> -->
+            </div>
         </div>
         <div id="inputArea">
-            <input id='input1' type='text' placeholder='Enter a team...'>
-            <input id='input2' type='text' placeholder='Enter another team...'>
+            <select class="dropdown" id="select1">
+                <option value="" disabled selected>Select a team name...</option>
+                <option>Ron Wolf Stink Bomb</option>
+                <option>Strawberry Sasquatch</option>
+                <option>Purple Skin Tan</option>
+                <option>50 Shades of Clay</option>
+                <option>Mr. Rodgers' Neighborhood</option>
+                <option>Peekaboo</option>
+                <option>The Goal Scorers</option>
+                <option>Elephant Punch</option>
+                <option>Nickname</option>
+                <option>GoPackGo</option>
+            </select>
+            <select class="dropdown" id="select2">
+                <option value="" disabled selected>Select another team name...</option>
+                <option>Ron Wolf Stink Bomb</option>
+                <option>Strawberry Sasquatch</option>
+                <option>Purple Skin Tan</option>
+                <option>50 Shades of Clay</option>
+                <option>Mr. Rodgers' Neighborhood</option>
+                <option>Peekaboo</option>
+                <option>The Goal Scorers</option>
+                <option>Elephant Punch</option>
+                <option>Nickname</option>
+                <option>GoPackGo</option>
+            </select>
+            <!-- <input id='input1' type='text' placeholder='Enter a team...'>
+            <input id='input2' type='text' placeholder='Enter another team...'> -->
             <button>Compare the Teams</button>
+            <h6><em>Scroll down to see the results</em></h6>
         </div>
     </div>
 
     <h3>Data Results:</h3>
+
     <div id="data-analysis">
     </div>
+
     <div id="voterListArea">
     </div>
+
     <script src="survey-responses.js"></script>
 </body>
 
